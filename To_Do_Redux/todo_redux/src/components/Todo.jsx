@@ -3,14 +3,16 @@ import { useSelector, useDispatch } from 'react-redux'
 import { removeTodo, updateTodo } from "../features/todoslice";
 
 
-const Todo = () => {
+const Todo = ({ sharedData, updateSharedData }) => {
     const todos = useSelector(state => state.todos)
     const dispatch = useDispatch()
     const [editText, setEditText] = useState("")
     const [editId, setEditId] = useState()
+    
     const handleEdit = (todo) => {
         setEditId(todo.id)
         setEditText(todo.text)
+        updateSharedData(todo)
     }
     const handleUpdate = () => {
         dispatch(updateTodo({id:editId, newText: editText}))
