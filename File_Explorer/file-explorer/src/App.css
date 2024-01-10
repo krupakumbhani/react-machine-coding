@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.folder-wrapper{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ flex-direction: row;
+ width: 400px;
+ background-color: lightgray;
+ margin: 5px 5px;
+ font-size: 24px;
+ padding: 7px;
+ cursor: pointer;
+}
+.folder-box{
+ margin: 0 5px;
+}
+.folder-btn-box{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 5px;
+}
+.folder-btn-box button{
+  padding: 5px 7px;
+  margin: 0 3px;
+  font-weight: 700;
+}
