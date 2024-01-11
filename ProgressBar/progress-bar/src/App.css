@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main{
+  width:500px;
+  height: 20px;
+  background-color: lightgray;
+  border: 1px solid gray;
+  border-radius: 15px;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  overflow: hidden;
+  position: relative;
+}
+.main div{
+  height: 100%;
+  background-color: green;
+  text-align: center;
+}
+.main span {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 99;
+}
