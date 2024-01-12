@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+.main{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  padding: 20px 0px; 
+}
+.card img{
+  width: 80%;
+  height: 200px;
+  object-fit: cover;
+}
+.button{
+  padding: 7px;
+  cursor: pointer;
+  background-color: chocolate;
+  color: white;
+  font-weight: 500;
+  border-radius: 5px;
+  border: 2px solid transparent;
+}
