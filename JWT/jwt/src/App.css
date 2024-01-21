@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+.navbar{
+  background-color: darkslategrey;
+  color: wheat;
+  padding: 15px;
+}
+.nav-ul{
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+  text-decoration: none;
+  list-style: none;
+  cursor: pointer;
+  width: 25%;
+}
+.nav-ul a{
+  color: wheat;
+  text-decoration: none;
+}
+
+
+.loginform{
+  width: 50%;
+  border: 2px solid black;
+  padding: 20px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.loginform div{
+ padding: 10px ;
+}
+
+.loginform label{
+  margin-right: 5px;
+}
+

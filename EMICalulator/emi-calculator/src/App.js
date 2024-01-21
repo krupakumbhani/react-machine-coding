@@ -1,24 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
-
+import { useState } from "react";
+import InField from './component/InField';
+import SliderField from './component/SliderField';
 function App() {
+  const [cost, setcost] = useState(0)
+  const [interestrate, setinterestrate] = useState(0)
+  const [processfee, setprocessfee] = useState(1)
+  const [downpayment, setdownpayment] = useState(0)
+  const [emi, setemi] = useState(0)
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+     <h1>EMI Calculator</h1>
+     <InField title={'Total Cost of Asset'} state={cost} setstate={setcost}/>
+     <InField title={'Interest Rate'} state={interestrate} setstate={setinterestrate}/>
+     <InField title={'Processing Fee'} state={processfee} setstate={setprocessfee}/>
+     <SliderField title={'Down Payment'} state={downpayment} setstate={setdownpayment} min={0} max={cost}/>
+     <SliderField title={'Loan per Month'} state={emi} setstate={setemi} />
+    </>
   );
 }
 
