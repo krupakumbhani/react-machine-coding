@@ -1,0 +1,76 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,td{
+  padding: 10px;
+  text-align: left;
+  border: 1px solid black;
+}
+th{
+  background-color: lightgray;
+}
+th:hover{
+  background-color: gray;
+}
+
+.detail-container{
+  max-width: 500px;
+  margin: 50px auto;
+  border: 2px solid black;
+  padding: 20px;
+}
+
+.detail-container h2{
+  margin-bottom: 20px;
+}
+.detail-container p{
+  margin-bottom: 10px;
+}
+
+.detail-container button{
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  margin: 0px 5px;
+}
+.cartbox{
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.cartbox h1{
+  margin-bottom: 30px;
+}
+
+.cartbox ul{
+  list-style: none;
+  padding: 0
+}
+
+.cartbox li{
+  margin-bottom: 10px;
+  border: 1px solid black;
+  padding: 10px ;
+}
+
+.cartbox button{
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+ 
+}

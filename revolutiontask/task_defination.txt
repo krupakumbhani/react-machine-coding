@@ -1,0 +1,23 @@
+Hardie Lalpura
+12:01 PM
+React Practical Task
+
+Task 1
+
+1)  First screen - product listing screen
+  - List of product 
+  - Call api and display all products in this screen
+  - Click on product go to product details page 
+
+  - Api :  https://dummyjson.com/products 
+
+2) Second Screen - product details screen
+
+    -  Api :  https://dummyjson.com/products/1 
+    - Display product details from api and add cart button
+    - click on add to cart button product add into cart
+    - display all cart item on another header button
+xbc-tgbw-ssk
+
+
+harshit@hashmedia.in
