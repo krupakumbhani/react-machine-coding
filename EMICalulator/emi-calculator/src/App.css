@@ -5,9 +5,12 @@
 }
 .slider{
   display: flex;
-  width: 50%;
+  width: 100%;
 }
 .sliderlabel{
   display: flex;
   justify-content: space-between;
+}
+.selected{
+  background-color: aquamarine;
 }

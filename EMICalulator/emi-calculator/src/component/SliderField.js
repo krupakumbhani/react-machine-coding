@@ -1,15 +1,22 @@
 import React from 'react'
 
-const SliderField = ({title, state,setstate,labelmin,labelmax,min,max}) => {
+const SliderField = ({ title,underlineTitle,
+  onChange,
+  state,
+  min,
+  max,
+  labelMin,
+  labelMax }) => {
   return (
     <div>
-    <div>{title}</div>
-    <input type="range" min={min} max={max} onChange={(e) => setstate(e.target.value)} className='slider'/>
-    <div className='sliderlabel'>
-        <span>{labelmin ?? min}</span>
+      <div>{title}</div>
+      <p>{underlineTitle}</p>
+      <input type="range" min={min} max={max} onChange={onChange} className='slider' />
+      <div className='sliderlabel'>
+        <span>{labelMin ?? min}</span>
         <span>{state}</span>
-        <span>{labelmax ?? max}</span>
-    </div>
+        <span>{labelMax ?? max}</span>
+      </div>
     </div>
   )
 }
