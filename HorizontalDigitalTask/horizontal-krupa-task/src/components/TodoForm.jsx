@@ -13,7 +13,7 @@ function TodoForm() {
     addTodo({ todo, completed: false });
     setTodo("");
   };
-
+console.log("input changes")
   return (
     <form onSubmit={add} className="d-flex flex-column justify-content-center align-items-center">
       <label className="mb-2">What needs to be done?</label>

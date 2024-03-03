@@ -13,6 +13,7 @@ function TodoItem({ todo }) {
   const toggleCompleted = () => {
     toggleComplete(todo.id)
   }
+  console.log(isTodoEditable)
 
   return (
     <div className="d-flex border border-1 border-light rounded-lg p-3 gap-3 text-black align-items-center">

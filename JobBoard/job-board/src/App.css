@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: bisque;
+  padding: 0px 40px;
+}
+
+h1{
+  margin: 15px 0px
+}
+
+.card{
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 15px;
+  padding: 10px;
+  display: block;
+  margin: 5px 0px;
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+.card-title{
+  font-size: 24px;
+  font-weight: 700;
+  display: block;
+}
+.card-title a{
+  text-decoration: none;
+  color: black;
+}
+.card-title a:hover{
+  text-decoration: underline;
+}
+.inactiveLink {
+  text-decoration: none;
+  pointer-events: none;
+  cursor: default;
+}
+
+
+.card-des{
+  display: flex;
+  color: gray;
+  font-size: 18px;
+  justify-content: start;
+}
+.btn{
+  padding: 7px 10px;
+  font-size: 15px;
+  background-color: brown;
+  color: wheat;
+  border: none;
+  border-radius: 5px;
+  margin: 10px 0px;
+  cursor: pointer;
+}
