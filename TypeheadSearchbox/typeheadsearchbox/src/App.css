@@ -1,0 +1,44 @@
+59* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+}
+
+.inbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.dropdown {
+  width: 60%;
+  background-color: #f7f7f7;
+  margin: auto;
+  cursor: pointer;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.searchbox {
+  width: 59%; 
+  height: 30px; 
+  padding: 5px; 
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.clear {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown p:hover {
+  background-color: lightgray;
+}
