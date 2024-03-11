@@ -1,0 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+.commentbox{
+  border: 2px solid black;
+  padding: 5px;
+  background-color: lightgray;
+  border-radius: 10px;
+  width: 100% ;
+  margin: 10px 0px;
+}
